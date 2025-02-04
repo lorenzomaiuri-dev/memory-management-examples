@@ -4,7 +4,7 @@
 [![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-A Python library to simulate memory management techniques like allocation, segmentation, swapping, TLB, and pagination using Jupyter notebooks.
+A Python library to simulate memory management techniques like allocation, segmentation, swapping, TLB, pagination and the Buddy System using Jupyter notebooks.
 
 ## Table of Contents
 
@@ -24,6 +24,7 @@ The **Memory Management Examples** repository demonstrates key memory management
 - **Swapping**: Managing processes in limited memory spaces.
 - **Translation Lookaside Buffer (TLB)**: A cache to speed up virtual memory access.
 - **Pagination**: Implementing page tables and a paging system.
+- **Buddy System**: Implementing the buddy memory allocation
 
 This project is designed for anyone learning about memory management or those looking to simulate memory management techniques in Python.
 
@@ -60,6 +61,7 @@ Here’s a list of Jupyter notebooks you can run to see the different memory man
 - **allocation.ipynb:** simulates First Fit, Best Fit, and Worst Fit allocation algorithms for dynamic memory allocation. This simulation implement and compare these memory allocation strategies for managing free memory blocks in a contiguous memory system
 - **pagination.ipynb:** simulates pagination and the FIFO page replacement policy
 - **TLB.ipynb:** simulates how a TLB (Translation Lookaside Buffer) caches virtual-to-physical address mappings to speed up address translation
+- **buddy_system.ipynb:** simulates how the Buddy Memory Allocation works, splitting the memory into halfs to try to satisfy a memory request as suitably as possible
 
 ## Contributing
 
